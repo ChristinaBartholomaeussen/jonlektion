@@ -14,6 +14,7 @@ public class JpaminiApplication {
     private static Connection conn = null;
     public static void main(String[] args) {
         System.out.println("Before Application");
+        System.out.println("Jenkins virker");
         connectToDB();
         SpringApplication.run(JpaminiApplication.class, args);
     }
